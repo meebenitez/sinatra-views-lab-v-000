@@ -12,5 +12,9 @@ class App < Sinatra::Base
     erb :goodbye
 	end
 
+	get '/' do
+    :date
+	end
+
 
 end
