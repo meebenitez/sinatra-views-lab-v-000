@@ -8,11 +8,11 @@ class App < Sinatra::Base
     erb :hello
 	end
 
-	get '/' do
+	get '/goodbye' do
     erb :goodbye
 	end
 
-	get '/' do
+	get '/date' do
     :date
 	end
 
